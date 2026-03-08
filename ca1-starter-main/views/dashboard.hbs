@@ -1,0 +1,26 @@
+<h1>Restaurant Categories</h1>
+
+<p>
+Browse the different restaurant categories below. Click on any category
+to view the restaurants available in that cuisine type.
+</p>
+
+<div class="cards-container">
+
+{{#each categories}}
+
+  <div class="card">
+
+    <img src="/images/{{image}}" class="card-img">
+
+    <h2>{{categoryTitle}}</h2>
+
+    <p>Total Restaurants: {{restaurants.length}}</p>
+
+    <a href="/category/{{id}}" class="btn">View Restaurants</a>
+
+  </div>
+
+{{/each}}
+
+</div>

@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0f1c2e;
+  color: #d6e4f5;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #7fb3ff;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #7fb3ff;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #c6d6eb;
+}
+
+nav {
+  background-color: #081423;
+  padding: 18px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 20px;
+  font-weight: bold;
+  transition: 0.3s;
+  color: #d6e4f5;
+}
+
+nav a:hover {
+  color: #4da3ff;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 900;
+  color: #4da3ff;
+  letter-spacing: 2px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #1e4d7a;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3a7bd5;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #16263a;
+  border-radius: 10px;
+  padding: 25px;
+  width: 260px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+  transition: transform 0.25s;
+  border-top: 4px solid #3a7bd5;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.card h3 {
+  color: #ffffff;
+}
+
+.card p {
+  font-size: 15px;
+  color: #c6d6eb;
+}
+
+.card-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.hero-image {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 25px 0;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.5);
+}
+
+.about-section {
+  max-width: 700px;
+  margin: auto;
+}
+
+.map-image {
+  width: 80%;
+  max-width: 500px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restaurant-item {
+  background: #16263a;
+  width: 70%;
+  max-width: 600px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.4);
+  border-left: 4px solid #3a7bd5;
+}
+
+.restaurant-item p {
+  margin: 10px 0;
+}
+
+.rating {
+  font-weight: bold;
+  color: #4da3ff;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 14px;
+  color: #a9c4e3;
+}

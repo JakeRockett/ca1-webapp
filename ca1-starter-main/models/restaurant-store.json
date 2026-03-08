@@ -1,0 +1,45 @@
+{
+  "restaurantCollection": [
+    {
+      "id": "italian",
+      "categoryTitle": "Italian Restaurants",
+      "image": "resimage2.jpg",
+      "restaurants": [
+        {
+          "restaurantName": "Luigi's Pasta House",
+          "restaurantDescription": "Authentic Italian pasta and pizza.",
+          "restaurantRating": "4.7"
+        },
+        {
+          "restaurantName": "Roma Kitchen",
+          "restaurantDescription": "Traditional Roman cuisine.",
+          "restaurantRating": "4.5"
+        }
+      ]
+    },
+    {
+      "id": "indian",
+      "categoryTitle": "Indian Restaurants",
+      "image": "resimage3.jpg",
+      "restaurants": [
+        {
+          "restaurantName": "Spice Garden",
+          "restaurantDescription": "Classic Indian curries and naan.",
+          "restaurantRating": "4.8"
+        }
+      ]
+    },
+    {
+      "id": "japanese",
+      "categoryTitle": "Japanese Restaurants",
+      "image": "resimage4.jpg",
+      "restaurants": [
+        {
+          "restaurantName": "Sakura Sushi",
+          "restaurantDescription": "Fresh sushi and ramen.",
+          "restaurantRating": "4.9"
+        }
+      ]
+    }
+  ]
+}
