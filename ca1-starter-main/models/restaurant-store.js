@@ -4,6 +4,7 @@ const restaurantStore = {
 
   store: new JsonStore("./models/restaurant-store.json", { restaurantCollection: [] }),
   collection: "restaurantCollection",
+  array: "restaurants",
 
   getAllCategories() {
     return this.store.findAll(this.collection);
